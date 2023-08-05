@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Footer = () => {
   return (
     <div className="footer" >
-    <footer className="footer mt-100 p-10  bg-neutral text-neutral-content">
+    <footer className="footer mt-100 p-10 border border-black border-t-2">
       <div>
         <span className="footer-title">NusaLearinng</span>
         <a className="link link-hover">2023 NusaLearning</a>
