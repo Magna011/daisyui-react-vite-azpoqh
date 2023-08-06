@@ -10,8 +10,9 @@ const Pelatihan = () => {
           <div className=" flex justify-center items-center">
           <div className="card p-5 mb-5 w-[1250px] h-[400px] bg-base-400 shadow-xl border border-black border-t-1">
           <div className="card-body">
-            <h2>tempat untuk</h2>
-            <p>photo/vidio disini</p>
+            <div className=" flex justify-center items-center text-center">
+            <h2>tempat untuk photo Cover/vidio disini</h2>
+            </div>
           </div>
         </div>
           </div>
