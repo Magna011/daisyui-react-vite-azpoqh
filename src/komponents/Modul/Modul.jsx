@@ -26,6 +26,7 @@ const Modul = () => {
               </div>
             </div>
           </div>
+          <div className="w-[780px] h-[auto] m-2  shadow-2xl border border-black border-t-2">
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
@@ -47,6 +48,7 @@ const Modul = () => {
             a id nisi.
           </p>
           
+          </div>
         </div>
         <div className="card flex-shrink-0 w-[350px] h-[600px] m-2 shadow-2xl border border-black border-t-2">
           <div className="card-body">
