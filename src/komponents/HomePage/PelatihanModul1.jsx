@@ -1,4 +1,4 @@
-const Pelatihan = () => {
+const PelatihanModul1 = () => {
   return (
     <>
       <div>
@@ -21,4 +21,4 @@ const Pelatihan = () => {
   );
 };
 
-export default Pelatihan;
+export default PelatihanModul1;

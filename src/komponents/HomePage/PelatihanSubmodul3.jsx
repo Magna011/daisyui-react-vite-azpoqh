@@ -1,10 +1,10 @@
-const Pelatihan = () => {
+const PelatihanSubmodul3 = () => {
   return (
     <>
       <div>
         <div className="flex justify-left items-left p-5 m-2 font-bold ">
             <p>
-              HTML untuk Pemula
+              HTML 3 untuk Pemula
             </p>
         </div>
           <div className=" flex justify-center items-center">
@@ -21,4 +21,4 @@ const Pelatihan = () => {
   );
 };
 
-export default Pelatihan;
+export default PelatihanSubmodul3;
