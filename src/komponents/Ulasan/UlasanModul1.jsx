@@ -1,7 +1,4 @@
-import App1 from './Lorem';
-
-
-const Ulasan = () => {
+const UlasanModul1 = () => {
   return (
     <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">
@@ -91,7 +88,7 @@ const Ulasan = () => {
         </p>
         <hr style={{ border: '1px solid black' }} />
         <div className=" text-sm">
-          </>
+          {/* <Lorem/> */}
         </div>
         <hr style={{ border: '1px solid black' }} />
         <div>
@@ -154,4 +151,4 @@ const Ulasan = () => {
   );
 };
 
-export default Ulasan;
+export default UlasanModul1;
