@@ -1,8 +1,7 @@
 import React from 'react';
-import './ProgressCard';
-import ProgressCard from './ProgressCard';
 import ProgressCard2 from './ProgressCard2';
 import Ulasan from './Ulasan';
+import Modul1 from '../Modul/Modul1';
 
 
 const Modul = () => {
@@ -20,7 +19,7 @@ const Modul = () => {
         <div className="card flex justify-left items-left w-[400px] h-[670px] m-2 shadow-2xl border border-black border-t-2">
           <div className="card-body">
             <div>
-              <ProgressCard/>
+              <Modul1/>
             </div>
           </div>
         </div>

@@ -2,33 +2,6 @@ import App1 from './Lorem';
 
 
 const Ulasan = () => {
-
-
-  const App1 = () => {
-    const longLoremText = `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec quam elit. Fusce vel libero sit amet ante aliquet mattis. Aliquam eget dui eu dolor pellentesque scelerisque non ut dui. Proin non metus id purus semper cursus. Sed et nisi ac augue tincidunt vehicula a et metus. Nulla facilisi. Duis et felis id elit consequat posuere.
-    `;
-  
-    const [showMore, setShowMore] = useState(false);
-  
-    const toggleShowMore = () => {
-      setShowMore(!showMore);
-    };
-  
-    return (
-      <div className="App1">
-        <p>{showMore ? longLoremText : longLoremText.substring(0, 200)}</p>
-        {longLoremText.length > 200 && (
-          <button onClick={toggleShowMore}>
-            {showMore ? 'See Less' : 'See More'}
-          </button>
-        )}
-      </div>
-    );
-  };
-
-
-
   return (
     <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">
@@ -118,7 +91,7 @@ const Ulasan = () => {
         </p>
         <hr style={{ border: '1px solid black' }} />
         <div className=" text-sm">
-          <App1 />
+          </>
         </div>
         <hr style={{ border: '1px solid black' }} />
         <div>
