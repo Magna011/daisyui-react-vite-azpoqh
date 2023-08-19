@@ -17,7 +17,7 @@ const Modul = () => {
           <div>
           </div>
         </div>
-        <div className="card flex justify-left items-left w-[400px] h-[600px] m-2 shadow-2xl border border-black border-t-2">
+        <div className="card flex justify-left items-left w-[400px] h-[670px] m-2 shadow-2xl border border-black border-t-2">
           <div className="card-body">
             <div>
               <ProgressCard/>

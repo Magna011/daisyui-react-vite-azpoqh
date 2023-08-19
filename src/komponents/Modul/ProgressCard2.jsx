@@ -1,9 +1,9 @@
 const ProgressCard2 = () => {
     return (
-      <div className="card flex-shrink-0 w-[780px] h-[200px] m-2  shadow-2xl border border-black border-t-2">
-            <div className="card-body">
+      <div className="card flex-shrink-0 w-[780px] h-[150px] m-2  shadow-2xl border border-black border-t-2">
+            <div className="card-body text-sm">
               <div className="card-title">
-                <p className="py-1">Yang anda dapatan di pelatihan ini</p>
+                <p className="py-0">Yang anda dapatan di pelatihan ini</p>
               </div>
               <div className="flex justify-between items-center text-[16px]">
                 <div className="w-[50%] float-right">
