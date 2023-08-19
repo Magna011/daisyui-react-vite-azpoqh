@@ -1,3 +1,5 @@
+import './Lorem.jsx';
+
 const Ulasan = () => {
   return (
     <div className="flex-shrink-0 w-[780px] h-[auto] m-2  shadow-2xl border border-black border-t-2">
@@ -87,7 +89,7 @@ const Ulasan = () => {
           </div>
         </p>
         <hr style={{border:'1px solid black'}}/>
-        <p>lorem ipun</p>
+        <p> </p>
       </div>
     </div>
   );
