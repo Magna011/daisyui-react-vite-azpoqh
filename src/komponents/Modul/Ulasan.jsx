@@ -1,8 +1,8 @@
-
+import App1 from './Lorem';
 
 const Ulasan = () => {
   return (
-    <div className="flex-shrink-0 w-[780px] h-[auto] m-2  shadow-2xl border border-black border-t-2">
+    <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">
         <div className="w-[50%] float-right">
           <div className="avatar">
@@ -52,7 +52,7 @@ const Ulasan = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className=" text-sm">
         <p>Untuk publik</p>
         <p>Kategori A</p>
         <p>14 x ditonton - dibuat pada 02 November 2022</p>
@@ -88,8 +88,66 @@ const Ulasan = () => {
             <p className="px-2">(100 rating)</p>
           </div>
         </p>
-        <hr style={{border:'1px solid black'}}/>
-        <p> </p>
+        <hr style={{ border: '1px solid black' }} />
+        <div className=" text-sm">
+          <App1 />
+        </div>
+        <hr style={{ border: '1px solid black' }} />
+        <div>
+          <div className="avatar">
+            <div className="w-8 h-8 rounded-full border border-black border-t-2">
+              <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+            <a href="#" className="font-bold p-1 ">
+              Jhon Doe
+            </a>
+          </div>
+          <div className="">
+            <div className="px-9 flex justify-between items-center text-sm">
+              <a className="w-[80%] float-right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                nec quam elit. Fusce vel libero sit amet ante aliquet mattis.
+              </a>
+              <a className="width-[20%] float-left font-bold">Balasan Komentar</a>
+            </div>
+            <a className="py-2 px-9 font-bold"> 5 Balasan ></a>
+          </div>
+          <div className="avatar px-9 py-2">
+            <div className="w-8 h-8 rounded-full border border-black border-t-2">
+              <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+            <a href="#" className="font-bold p-1">
+              Jhon Doe
+            </a>
+          </div>
+          <div className="px-12  text-sm">
+            <a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                nec quam elit. Fusce vel libero sit amet ante aliquet mattis.</a>
+          </div>
+          <div className="avatar">
+            <div className="w-8 h-8 rounded-full border border-black border-t-2">
+              <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
+            <a href="#" className="font-bold p-1 ">
+              Jhon Doe
+            </a>
+          </div>
+          <div className="py-0">
+            <div className="px-9 flex justify-between items-center text-sm">
+              <a className="w-[80%] float-right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                nec quam elit. Fusce vel libero sit amet ante aliquet mattis.
+              </a>
+              <a className="width-[20%] float-left font-bold">Balasan Komentar</a>
+            </div>
+            <div className="flex justify-center items-center py-3">
+              <a> ^ Show More </a>
+            </div>
+            <div className="flex justify-center items-center py-0">
+            <a className="badge badge-outline">+ Leave a Review</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
