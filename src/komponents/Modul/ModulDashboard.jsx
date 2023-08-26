@@ -1,6 +1,6 @@
 import './Style.css';
 
-const Modul = () => {
+const ModulDashboard = () => {
   return (
     <div>
       <table className="table border border-black border-t-2 w-[300px] h-[650px]">
@@ -114,4 +114,4 @@ const Modul = () => {
   );
 };
 
-export default Modul;
+export default ModulDashboard;

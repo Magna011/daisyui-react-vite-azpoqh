@@ -7,7 +7,7 @@ const ProgressCardSubModul2 = () => {
             </div>
             <div className="flex justify-between items-center text-[16px]">
               <div className="w-[50%] float-right">
-                  <li>4 Menit total vidio pembelajaran</li>
+                  <li> Menit total vidio pembelajaran</li>
                   <li>5 bahan bacaan</li>
                   <li>5 kontent yang dapat diunduh </li>
               </div>
