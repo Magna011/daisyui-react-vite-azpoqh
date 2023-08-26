@@ -1,4 +1,4 @@
-const UlasanSubmodul1 = () => {
+const UlasanSubmodul2 = () => {
   return (
     <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">

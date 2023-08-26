@@ -1,7 +1,4 @@
 import React from 'react';
-// import ProgressCard2 from './komponents/Modul/ProgressCard2';
-// import Ulasan from './komponents/Modul/Ulasan';
-// import Modul1 from './komponents/Modul/Modul1';
 
 
 const Dashboard = () => {
@@ -10,8 +7,7 @@ const Dashboard = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <div>
-            {/* <ProgressCard2/> */}
-            {/* <Ulasan/> */}
+  
           </div>
           <div>
           </div>
@@ -19,7 +15,7 @@ const Dashboard = () => {
         <div className="card flex justify-left items-left w-[400px] h-[670px] m-2 shadow-2xl border border-black border-t-2">
           <div className="card-body">
             <div>
-              {/* <Modul1/> */}
+      
             </div>
           </div>
         </div>
