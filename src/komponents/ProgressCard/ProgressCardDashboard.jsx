@@ -1,6 +1,6 @@
 const ProgressCardDashboard = () => {
   return (
-    <div className="card flex-shrink-0 w-[780px] h-[150px] m-2  shadow-2xl border border-black border-t-2">
+    <div className="card w-[780px] h-[150px] m-2  shadow-2xl border border-black border-t-2">
           <div className="card-body text-sm">
             <div className="card-title">
               <p className="py-0">Yang anda dapatan di pelatihan ini</p>

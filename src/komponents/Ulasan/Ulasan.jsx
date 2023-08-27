@@ -1,6 +1,6 @@
 const Ulasan = () => {
   return (
-    <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
+    <div className=" w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">
         <div className="w-[50%] float-right">
           <div className="avatar">

@@ -1,4 +1,4 @@
-const Pelatihan = () => {
+const Pelatihan= () => {
   return (
     <>
       <div>
