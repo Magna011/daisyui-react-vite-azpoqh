@@ -1,3 +1,5 @@
+import LoremModul1 from "../Lorem/LoremModul1";
+
 const UlasanModul1 = () => {
   return (
     <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
@@ -88,7 +90,7 @@ const UlasanModul1 = () => {
         </p>
         <hr style={{ border: '1px solid black' }} />
         <div className=" text-sm">
-          {/* <Lorem/> */}
+          <LoremModul1/>
         </div>
         <hr style={{ border: '1px solid black' }} />
         <div>

@@ -88,7 +88,7 @@ const Ulasan = () => {
         </p>
         <hr style={{ border: '1px solid black' }} />
         <div className=" text-sm">
-          {/* <Lorem/> */}
+          <Lorem/>
         </div>
         <hr style={{ border: '1px solid black' }} />
         <div>

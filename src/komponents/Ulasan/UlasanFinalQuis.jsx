@@ -1,8 +1,8 @@
-import LoremSubmodul1 from "../Lorem/LoremSubmodul1";
+import LoremFinalQuis from "../Lorem/LoremFinalQuis";
 
-const UlasanSubmodul1 = () => {
+const UlasanFinalQuis = () => {
   return (
-    <div className="flex-shrink-0 w-[780px] h-[auto] m-2 ">
+    <div className=" w-[780px] h-[auto] m-2 ">
       <div className="flex justify-between items-center text-[16px]">
         <div className="w-[50%] float-right">
           <div className="avatar">
@@ -90,7 +90,7 @@ const UlasanSubmodul1 = () => {
         </p>
         <hr style={{ border: '1px solid black' }} />
         <div className=" text-sm">
-          <LoremSubmodul1/>
+          <LoremFinalQuis/>
         </div>
         <hr style={{ border: '1px solid black' }} />
         <div>
@@ -110,7 +110,7 @@ const UlasanSubmodul1 = () => {
               </a>
               <a className="width-[20%] float-left font-bold">Balasan Komentar</a>
             </div>
-            <a className="py-2 px-9 font-bold"> 5 Balasan ></a>
+            <a className="py-2 px-9 font-bold"> 5 Balasan > </a>
           </div>
           <div className="avatar px-9 py-2">
             <div className="w-8 h-8 rounded-full border border-black border-t-2">
@@ -153,4 +153,4 @@ const UlasanSubmodul1 = () => {
   );
 };
 
-export default UlasanSubmodul1;
+export default UlasanFinalQuis;
